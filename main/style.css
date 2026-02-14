@@ -123,3 +123,15 @@ label {
     transform: translate(-50%, -50%);
     border-radius: 100px;
 }
+
+.add_card {
+    position: fixed;
+    height: 75px;
+    width: 75px;
+    background-color: #671700;
+    display: block;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 3px solid black;
+    
+}
