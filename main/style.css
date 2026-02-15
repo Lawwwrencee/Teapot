@@ -5,7 +5,7 @@
 }
 
 .tea {
-    background-color: #301907;
+   background-color: #34180f;
 }
 
 .tea_box {
@@ -16,7 +16,7 @@
 
 .tea_title {
     text-align: center;
-    color: #92875b;
+    color: #c7b575;
     font-size: 37px;
     font-weight: 300;
 
@@ -33,7 +33,7 @@
 .search_input {
     border: none;
     outline: none;
-    background-color: #573115;
+    background-color: #5e2e1b;
     border-radius: 60px;
     padding: 20px;
     color:#ffffff;
@@ -47,19 +47,19 @@
     border: none;
     outline: none;
     font-size: 16px;
-    background-color:  #91562c;
+    background-color:  #b68934;
     border-radius: 50px;
-    color: #5f2b18;
+    color: #4b2908;
     margin-left: 5px;
     padding: 10px;
 }
 
 .rectangle {
     display: block;
-    border: 6px solid #91562c;
+    border: 6px solid #85431e;
     margin: 50px;
    padding: 10px;
-   background-color: rgb(245, 226, 157);
+   background-color: #cc9c71;
    height: 300px;
    width: 200px;
    border-radius: 20px;
@@ -91,11 +91,11 @@ label {
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: #671700;
+    background-color: #dfc3a7;
     display: block;
     cursor: pointer;
     border-radius: 10px;
-    border: 3px solid black;
+    border: 3px solid #673d29;
     top: 31%;
     left: 6.98%;
 }
@@ -104,7 +104,7 @@ label {
     position: absolute;
     width: 50px;
     height: 5px;
-    background-color: black;
+    background-color: #673d29;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -116,7 +116,7 @@ label {
     position: absolute;
     width: 5px;
     height: 50px;
-    background-color: black;
+    background-color: #673d29;
     display: block;
     top: 50%;
     left: 50%;
@@ -128,10 +128,36 @@ label {
     position: fixed;
     height: 75px;
     width: 75px;
-    background-color: #671700;
+    background-color: #eaceaa;
     display: block;
     cursor: pointer;
     border-radius: 10px;
-    border: 3px solid black;
-    
+    border: 3px solid #85431e;
+    top: 31%;
+    left: 20%;
 }
+
+.card_line1 {
+    position: absolute;
+    width: 50px;
+    height: 5px;
+    background-color: #85431e;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+}
+
+.card_line2 {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 50px;
+    background-color: #85431e;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100px;
+}
+

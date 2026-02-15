@@ -1,15 +1,20 @@
 const searchButt = document.querySelector(".search_butt");
 const searchInput = document.querySelector(".search_input");
-let wrapper = document.querySelector(".wrapper");
+const addCard = document.querySelector(".add_card");
+const wrapper = document.querySelector(".wrapper");
 
-searchButt.addEventListener('click', function() {
-    addAny()
+addCard.addEventListener('click', function() {
+    search()
 })
 
-function addAny() {
-    if (searchInput.value === "") {
-        alert("meow..?")
-    }
+function search() {
+
+}
+
+function add() {
+      let rectange = document.createElement('rectangle')
+        li.innerHTML = todoInput.value
+         teaBox.appendChild(rectange)
 }
 
 function download(input) {
@@ -23,5 +28,3 @@ function download(input) {
     }
 
 }
-
-console.log(wrapper);
