@@ -3,11 +3,62 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>teapot</title>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+    <body>
+      <div class="tea">
+        <div class="tea_box">
+          <div class="title_row">
+            <div class="tea_title">
+              <h2>Teapot</h2>
+            </div>
+          </div>
+    <button class="add_card">
+              <!-- добавить карточку -->
+              <span class="card_line1"></span>
+              <span class="card_line2"></span>
+            </button>
+          <div class="tea_container">
+            <div class="rectangle">
+              <div class="wrapper"></div>
+              <!-- вставка картинки -->
+              <input class="rec_input" placeholder="Название чая" />
+              <label>
+                <input
+                  class="imgInput"
+                  type="file"
+                  accept="image/png, image/jpeg"
+                />
+                <span class="line1"></span>
+                <span class="line2"></span>
+              </label>
+            </div>
+            <div class="rectangle">
+              <div class="wrapper"></div>
+              <!-- вставка картинки -->
+              <input class="rec_input" placeholder="Название чая" />
+              <label>
+                <input
+                  class="imgInput"
+                  type="file"
+                  accept="image/png, image/jpeg"
+                />
+                <span class="line1"></span>
+                <span class="line2"></span>
+              </label>
+            </div>
+
+        
+          </div>
+        </div>
+      </div>
+
+      <script src="./site.js"></script>
+    </body>
+    <!-- <div id="app"></div> -->
+    <script type="module" src="/src/site.js"></script>
   </body>
 </html>
