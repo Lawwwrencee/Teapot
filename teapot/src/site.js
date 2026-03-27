@@ -1,3 +1,4 @@
+
 const wrapper = document.querySelector(".wrapper");
 const teaBox = document.querySelector(".tea_box");
 const imgInputs = document.querySelectorAll(".imgInput");
@@ -88,8 +89,10 @@ imgInputs.forEach((e) => {
 
 addCardBtn.addEventListener("click", () => {
   myTea.push({
+    id: crypto.randomUUID(),
     name: "",
     img: null,
+    
   });
   renderTea();
   localStorage.setItem("myTea", JSON.stringify(myTea));
